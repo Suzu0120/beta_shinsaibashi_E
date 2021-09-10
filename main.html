@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>封鎖された家庭科室からの脱出 │ Project N</title>
+  <title>妖怪大パニックからの脱出　〜妖怪を封印せよ〜 │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,7 +23,7 @@
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/main-image.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/main-image.png" alt="妖怪大パニックからの脱出　〜妖怪を封印せよ〜"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -33,9 +33,14 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>解読しよう！</h2>
+            <p class="text-center">敵を倒すにはまず敵を知るところから。<br>
+              あなたはSNSで町の状況について検索した。町内会の公式アカウントにそれらしい情報が合ったので詳しく見ようとしたけれど、<br>
+              妖怪の妨害で文字化けしてしまって読むことができない。<br>
+              けれど、これは法則のないバグじゃない。心を持った妖怪がやったことだ。<br>
+              だったら必ず手がかりがあるはず。<br>
+               <br>
+              文字化けを解読して封印のヒントを得よう！</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
             <div class="container">
@@ -85,9 +90,12 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">文字化けを解読した！<br>
+                どうやら大昔にも同じようなことがあったらしい。妖怪は災害を引き起こす生き物を作り出す力を持っていて、<br>
+                そのせいで町が更地になってしまったことがあるようだ。<br>
+                けれどまだ希望はある。妖怪を封印するための呪文が、町のどこかに隠されているそうだ。<br>
+                A君に指示を出して呪文を見つけよう！<br>
+                </div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -197,10 +205,14 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>家庭科室の課題とは</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>特定しよう！</h2>
+            <p class="text-center">A君と協力し、見事に封印の呪文を手に入れた。<br>
+              その瞬間、強い揺れがあなたを襲う。遠くに見える海の水平線がグッと高くなる。<br>
+              津波だ。早く妖怪を封印しなければ、町が流されてしまう。<br>
+              妖怪の場所はまだ分からないけれど、目的は人間への復讐だ。だったら、人がたくさん集まる場所に向かうはずだ。<br>
+              津波のときに人が避難する場所といえば......？<br>
+              
+              </p>
             <figure class="image__container">
               <img src="assets/images/stage.png" alt="">
             </figure>
@@ -271,8 +283,12 @@ STAGE3-3追加　ここまで -->
   <div class="container">
     <div class="clear-message">
       <div class="clear-message__title">STAGE：3　クリア！</div>
-      <div class="clear-message__content">黒板の指示に従い、<br>
-        次のステージの謎を解こう！</div>
+      <div class="clear-message__content">あなたはみんなが「高い場所」に避難すると推理し、A君を妖怪が封印されていた山へ向かわせた。<br>
+        A君が山頂にたどり着くと、やっぱり大勢の人が避難していた。<br>
+        そして、その人たちを追い詰めている妖怪の姿が。<br>
+        これで最後だ。<br>
+        A君がツボを構えて呪文を唱えようとしたとき、周りの木が燃え上がる。妖怪が引き起こした山火事だ！<br>
+        </div>
         <button v-on:click="nextStage('stage3')" onclick="location.href='#sectionStage4'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
     </div>
   </div>
