@@ -114,15 +114,20 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>呪文を解読せよ！</h2>
+              <p class="text-center">A君が町に出てみると、あちこちに火がついている。<br>
+                全ての建物が灰になってしまいかねない勢いだ。<br>
+                けれど、そんな状況で、まだ原型をとどめている和風のお屋敷が１軒。
+                きっとそこだ！<br>
+                屋敷に入ってみると廊下がずっと続いて、その突き当たりに本棚がある。それが地震のせいで崩れて、奥に隠されていた部屋が見えている。<br>
+                その部屋の壁に、いかにも呪文の答えが隠されているらしい壁画がある。<br>
+                近寄ろうとしたら、ついに火の手が回ってきた！<br>
+                </p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
             <div class="container">
-              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>キーワードを入力</h2>
+              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>呪文を入力</h2>
               <!-------------------------------------------------------------
                 class名"row"内のclass名"column"が横並びになります。
                 改行する場合は以下のように追加してください。
@@ -189,8 +194,12 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">A君はとっさにハンカチで口と鼻を覆い、姿勢を低くして煙を吸わないようにしつつ壁画にカメラを向けた。<br>
+                あなたは推理し、そして答えを出す。<br>
+                『おはしも』だ！<br>
+                おさない、はしらない、しゃべらない、もどらないの４箇条を組み合わせた災害対策の言葉。<br>
+                これがぬらりひょんを封印するための呪文だ！<br>
+                </div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -206,12 +215,11 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>特定しよう！</h2>
-            <p class="text-center">A君と協力し、見事に封印の呪文を手に入れた。<br>
-              その瞬間、強い揺れがあなたを襲う。遠くに見える海の水平線がグッと高くなる。<br>
-              津波だ。早く妖怪を封印しなければ、町が流されてしまう。<br>
-              妖怪の場所はまだ分からないけれど、目的は人間への復讐だ。だったら、人がたくさん集まる場所に向かうはずだ。<br>
-              津波のときに人が避難する場所といえば......？<br>
-              
+            <p class="text-center">あなたはA君と協力し、見事に封印の呪文を手に入れた!<br>
+              屋敷から出た瞬間、強い揺れがあなたを襲う。足元が確かでなくなってしまうほど強い揺れだ。<br>
+              建物が豆腐かプリンのように揺れている。まるで悪夢だ！<br>
+              ぬらりひょんの場所はまだ分からないけれど、目的は人間への復讐のようだ。<br>
+              だったら、人がたくさん集まる場所に向かうはずだ。地震のときに人が避難する場所といえば......？
               </p>
             <figure class="image__container">
               <img src="assets/images/stage3question.png" alt="">
@@ -283,11 +291,12 @@ STAGE3-3追加　ここまで -->
   <div class="container">
     <div class="clear-message">
       <div class="clear-message__title">STAGE：3　クリア！</div>
-      <div class="clear-message__content">あなたはみんなが「高い場所」に避難すると推理し、A君を妖怪が封印されていた山へ向かわせた。<br>
-        A君が山頂にたどり着くと、やっぱり大勢の人が避難していた。<br>
-        そして、その人たちを追い詰めている妖怪の姿が。<br>
+      <div class="clear-message__content">あなたはみんなが「建物の無い広い場所」に避難すると推理し、A君を校庭へ向かわせた。<br>
+        A君が校庭にたどり着くと、やっぱり大勢の人が避難していた。<br>
+        そして、その人たちを追い詰めているぬらりひょんの姿が!<br>
         これで最後だ。<br>
-        A君がツボを構えて呪文を唱えようとしたとき、周りの木が燃え上がる。妖怪が引き起こした山火事だ！<br>
+        A君がツボを構えて呪文を唱えようとしたとき、瓦礫になった建物の向こうに見える海の水平線がグッと持ち上がる。<br>
+        災害を司る妖怪としての最後の抵抗、津波だ！<br>
         </div>
         <button v-on:click="nextStage('stage3')" onclick="location.href='#sectionStage4'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
     </div>
@@ -307,10 +316,13 @@ STAGE3-3追加　ここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：4</span>呪文を唱えよう！</h2>
-              <p class="text-center">山火事のせいで煙が立ち込めて、息をすることができない。<br>
-                つまり、呪文を唱えることができない！妖怪はニタニタ笑って、息ができずに苦しんでいるみんなを見ている。<br>
-                けれど、ここまできて負けるわけにはいかない。火事のときはどうすればいいんだったか。<br>
-                最後の推理だ！<br>
+              <p class="text-center">津波は車を上回る速さで校庭へ迫って来ている。<br>
+                瓦礫が巻き込まれていて、波というより巨大な壁だ。<br>
+                みんなが屋上を目指して校舎へ走り出したとき、ぬらりひょんがA君に黒い光を投げつけた。<br>
+                すると、A君は一瞬で石像になってしまった。息をしていない。心臓の音が、少しずつ弱まっていく。<br>
+                すると、ライブ映像の中央に問題が現れた。 呪いを解くための問題だ。<br>
+                ぬらりひょんは、「解けるものなら解いてみろ」とでも言うように笑っている。<br>
+                最後の推理だ!A君を解放し、ぬらりひょんを封印しよう！<br>
                 </p>
             </div>
           </div>
