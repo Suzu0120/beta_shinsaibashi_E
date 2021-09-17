@@ -33,14 +33,14 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>解読しよう！</h2>
-            <p class="text-center">敵を倒すにはまず敵を知るところから。<br>
-              あなたはSNSで町の状況について検索した。町内会の公式アカウントにそれらしい情報が合ったので詳しく見ようとしたけれど、<br>
-              妖怪の妨害で文字化けしてしまって読むことができない。<br>
-              けれど、これは法則のないバグじゃない。心を持った妖怪がやったことだ。<br>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span><ruby>解読<rt>かいどく</rt></ruby>しよう！</h2>
+            <p class="text-center">敵を<ruby>倒<rt>たお</rt></ruby>すにはまず敵を知るところから。<br>
+              あなたはSNSで町の<ruby>状況<rt>じょうきょう</rt></ruby>について<ruby>検索<rt>けんさく</rt></ruby>した。町内会の公式アカウントにそれらしい情報が合ったので<ruby>詳<rt>くわ</rt></ruby>しく見ようとしたけれど、<br>
+              妖怪の<ruby>妨害<rt>ぼうがい</rt></ruby>で<ruby>文字化<rt>もじば</rt></ruby>けしてしまって読むことができない。<br>
+              けれど、これは<ruby>法則<rt>ほうそく</rt></ruby>のないバグじゃない。心を持った妖怪がやったことだ。<br>
               だったら必ず手がかりがあるはず。<br>
                <br>
-              文字化けを解読して封印のヒントを得よう！</p>
+              文字化けを解読して<ruby>封印<rt>ふういん</rt></ruby>のヒントを<ruby>得<rt>え</rt></ruby>よう！</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
             <div class="container">
@@ -64,7 +64,7 @@ Youtube貼り付けここまで -->
         <!-- STAGE1解答入力セクション　ここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>解読した文字を入力しよう！</h2>
             <!------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
               v-bind:correct="correctAnswer['stage1']['q1']" は正解の解答を指します。
@@ -90,13 +90,13 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">文字化けを解読した！<br>
-                どうやら大昔にも同じようなことがあったらしい。妖怪は災害を引き起こす生き物を作り出す力を持っていて、<br>
-                そのせいで町が更地になってしまったことがあるようだ。<br>
-                けれどまだ希望はある。妖怪を封印するための呪文が、町のどこかに隠されているそうだ。<br>
-                A君に指示を出して呪文を見つけよう！<br>
+              <div class="clear-message__content">文字化けを<ruby>解読<rt>かいどく</rt></ruby>した！<br>
+                どうやら<ruby>大昔<rt>おおむかし</rt></ruby>にも同じようなことがあったらしい。妖怪は災害を引き起こす生き物を作り出す力を持っていて、<br>
+                そのせいで町が<ruby>更地<rt>さらち</rt></ruby>になってしまったことがあるようだ。<br>
+                けれどまだ希望はある。妖怪を封印するための<ruby>呪文<rt>じゅもん</rt></ruby>が、町のどこかに隠されているそうだ。<br>
+                A君に<ruby>指示<rt>しじ</rt></ruby>を出して呪文を見つけよう！<br>
                 </div>
-              <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
+              <button v-on:click="nextStage('stage1')" on/click="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
         </section>
